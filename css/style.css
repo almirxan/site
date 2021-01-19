@@ -1,0 +1,236 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html {
+scroll-behavior: smooth;
+}
+header{
+	height: 100px;
+	background: #555555;
+}
+.container{
+	width: 1080px;
+	margin: 0 auto;
+}
+.logo img{
+	margin-top: 59px;
+}
+.logo{
+	float: left;
+}
+nav.menu{
+	margin-left: 217px;
+	float: left;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	margin-top: 63px;
+	margin-left: 25px;
+	transition: all .3s ease;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+.tel a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	transition: all .25s ease;
+}
+.tel{
+	margin-left: 71px;
+	float: left;
+	margin-top: 63px;
+}
+.tel a:hover{
+	color: #a24f3d;
+}
+.menu li:hover{
+	border-bottom: solid 1px #fff;
+}
+.btn button{
+	border-radius: 8px;
+	outline: none;
+	border:0;
+	font-size: 12px;
+	padding: 13px 19px;
+	background: #a24f3d;
+	color: #fff;
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+	margin-top: 50px;
+}
+.btn button:focus{
+	background-color: #ba5742;
+}
+.btn button:hover{
+	background-color: #7c2d1c;
+}
+.btn{
+	float: right;
+}
+section.fon{
+	background: url(../img/fon.png) no-repeat center top / cover;
+	height: 858px;
+	display: flex;
+}
+.fon h1{
+	font-weight: bold;
+	margin-top: 84px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.washing-machine{
+	float: left;
+}
+.call-form{
+	text-align: center;
+}
+.dishwasher{
+	float: right;
+}
+.fon h2{
+	font-weight: 400;
+	font-size: 24px;
+}
+input{
+	outline:none;
+	border-radius: 10px;
+	padding: 16px;
+	width: 250px;
+	margin-top: 24px;
+	border: 0;
+}
+input::placeholder{
+	font-size: 18px;
+	font-weight: 400;
+}
+button.call{
+	width: 200px;
+	height: 45px;
+	background-color:#7c2d1c;
+	margin-top: 32px;
+	color:#fff;
+	font-size: 17px;
+	outline:none;
+	border-radius: 8px;
+	border: none;
+	cursor:pointer;
+	transition: all .3s ease;
+}
+button.call:hover{
+	background-color: #ba5742;
+}
+p.price{
+	text-align: center;
+	font-weight: medium;
+	font-size: 30px;
+	margin-top: 37px;
+}
+.uslugi{
+	text-align: center;
+	float: left;
+	margin: 25px 50px;
+	height: 260px;
+}
+p.polomki{
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 10px;
+}
+p.sum{
+	margin-top: 5px;
+	font-size: 18px;
+}
+#slideshow{
+	margin-top: 35px;
+}
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:560px;
+  height:263px;
+  overflow:auto; /* разрешаем прокрутку */
+  position:relative;
+  box-shadow: 0px 0px 16.2px 1.8px rgba(85, 114, 126, 0.56);
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; 
+  height:263px;
+}
+/**
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width: 190px;
+  color: black;
+  position: relative;
+  cursor: pointer;
+}
+.post_otzivy img{
+	margin: 10px;
+	float: left;
+}
+.prev{
+	float: left;
+}
+.next{
+	float: right;
+}
+.control-container{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.slide p.name{
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.slide p.otziv{
+	text-align: center;
+}
+.otzyv{
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}
+.slide p.polom{
+	text-align: center;
+	color: #5e5d5d;
+}
+.slide p.text-otzyv{
+	padding: 20px;
+	display: flex;
+	text-align: justify;
+}
+form{
+	background: url(../img/fom.jpeg)right bottom;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50px;
+	padding: 20px;
+}
+form p{
+	padding: 10px;
+	color:#eee;
+	display: block;
+	margin:0 60px;
+	font-weight: 500;
+	font-size: 24px;
+}
+footer{
+	margin-top: 50px;
+	background-color: #2a2a2a;
+	height: 200px;
+}
